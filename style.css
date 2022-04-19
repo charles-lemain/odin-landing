@@ -64,7 +64,7 @@ li {
 .hero-text {
   display: flex;
   flex-direction: column;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
   max-width: 50%;
   gap: 6px;
 
@@ -96,13 +96,16 @@ li {
 }
 
 .hero-image {
-  flex: 1;
-  background-color: gray;
-  text-align: center;
-  padding-top: 80px;
-  
+  flex: 1 1 auto;
+  justify-items: center;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
 }
 
+.hero-image img {
+  flex: 0 1 auto;
+}
 .section-two {
   display: flex;
   flex: 1;
@@ -230,4 +233,13 @@ li {
   border-radius: 5px; 
   color: #FFFFFF;
   font-weight: bolder;
+}
+
+.footer {
+  background-color: #1F2937;
+  flex: 1;
+  justify-content: center;
+  align-content: center;
+  color:#E5E7EB;
+  padding: 30px 40%;
 }
