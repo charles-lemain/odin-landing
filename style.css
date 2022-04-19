@@ -66,6 +66,7 @@ li {
   flex-direction: column;
   flex: 1 1 auto;
   max-width: 50%;
+  gap: 6px;
 
 }
 
@@ -83,13 +84,15 @@ li {
 }
 .hero-button button {
   width: 100px;
-  height: 30px;
   background-color: #3882F6;
   margin-top: 5px;
   border: 0px;
   border-radius: 5px; 
   color: #FFFFFF;
   font-weight: bolder;
+  justify-content: center;
+  align-content: center;
+  padding: 6px 20px;
 }
 
 .hero-image {
@@ -216,11 +219,11 @@ li {
 }
 
 .cta-text .cta-text-body {
-  font-weight: 200;
+  font-weight: 400;
 }
 .cta-button button {
   width: 100px;
-  height: 30px;
+  padding: 6px 20px;
   background-color: #3882F6;
   margin-top: 5px;
   border: 3px solid #FFFFFF;
